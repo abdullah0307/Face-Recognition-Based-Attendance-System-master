@@ -97,7 +97,6 @@ def is_number(s):
         return True
     except (TypeError, ValueError):
         pass
-
     return False
 
 def TakeImages():
